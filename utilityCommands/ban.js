@@ -5,7 +5,7 @@ const {
   } = require(`discord.js`)
   
 module.exports = {
-    name: 'ban',
+    name: 'block',
     description: 'Ban a user from the server',
     execute(message, args) {
         if (!message.member.permissions.has('BAN_MEMBERS')) {
