@@ -1,7 +1,7 @@
 const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
-    name: 'kick',
+    name: 'tendang',
     description: 'Kick a user from the server',
     execute(message, args) {
         // Check if the user has the necessary permissions to use the command
