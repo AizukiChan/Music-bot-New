@@ -1,7 +1,7 @@
 const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
-    name: 'serverinfo',
+    name: 'server',
     aliases: ['server', 'sinfo'],
     description: 'Get information about server',
     execute(message, args) {
