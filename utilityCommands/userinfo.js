@@ -1,7 +1,7 @@
 const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
-    name: 'userinfo',
+    name: 'user',
     aliases: ['user', 'uinfo'],
     description: 'Get information about a user',
     execute(message, args) {
